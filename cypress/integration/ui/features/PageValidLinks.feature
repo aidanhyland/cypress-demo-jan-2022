@@ -1,4 +1,4 @@
-Feature: Page Vaild Links Tests
+Feature: BDD Style: Page Valid Links Tests
 
   As a user, I want to verify all links on the page go to another live (non 4xx) page.
 

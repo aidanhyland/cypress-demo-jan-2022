@@ -1,6 +1,6 @@
 import { pagesToCheckConsoleErrors } from "../../support/testdata/pages";
 
-describe(["@ui", "@errors", "@chrome"], "Page Console Error Check with Cypress Listener", () => {
+describe(["@ui", "@errors", "@chrome"], "Mocha Style: Page Console Error Check with Cypress Listener", () => {
   Cypress.on("window:before:load", (win: Cypress.AUTWindow) => {
     cy.spy(win.console, "error");
   });

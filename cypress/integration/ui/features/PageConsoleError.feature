@@ -1,4 +1,4 @@
-Feature: Console Error Webpage Tests
+Feature: BDD Style: Console Error Webpage Tests
   
   As a user, I want to verify there are no console errors on page loads.
 

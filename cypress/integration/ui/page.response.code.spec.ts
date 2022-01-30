@@ -9,7 +9,7 @@ const pageArray: string[] = [
   "https://www.w3.org/standards/webdesign/htmlcss"
 ];
 
-describe(["@ui", "@responseCode"], "Page Response Code Tests", () => {
+describe(["@ui", "@responseCode"], "Mocha Style: Page Response Code Tests", () => {
   context("Page Response Code - ResponseCode 200 - Using Local Array", () => {
     pageArray.forEach((page) => {
       it(`Webpage '${page}' response code should equal 200`, () => {

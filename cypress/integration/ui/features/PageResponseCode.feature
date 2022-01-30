@@ -1,4 +1,4 @@
-Feature: Response Code Tests
+Feature: BDD Style: Response Code Tests
 
   As a user, I want to verify the response code from the pages (200, 302, 404, etc.).
 

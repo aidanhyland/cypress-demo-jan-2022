@@ -1,7 +1,7 @@
 import failOnConsoleError from "cypress-fail-on-console-error";
 import { pagesToCheckConsoleErrors } from "../../support/testdata/pages";
 
-describe(["@ui", "@errors", "@chrome"], "Page Console Error Check with External Package", () => {
+describe(["@ui", "@errors", "@chrome"], "Mocha Style: Page Console Error Check with External Package", () => {
   before(() => {
     failOnConsoleError();
   });

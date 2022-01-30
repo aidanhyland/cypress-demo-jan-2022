@@ -49,6 +49,15 @@ docker run -it -v $PWD:/e2e -w /e2e cypress/included:9.2.0 --browser chrome --sp
 
 ```
 
+### Reporting
+
+A HTML report will be generated within `\mochawesome-report\mochawesome.html`  
+
+```bash
+# Run all on chrome with Reporting generated
+npm run cy:chrome
+```
+
 ### Built With
 This section lists features/frameworks/libraries used within project. 
 
