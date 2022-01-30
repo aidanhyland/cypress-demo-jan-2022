@@ -22,10 +22,10 @@ npm run cy:open
 # Quick Run all Tests
 npm run cy:run
 
-# Run on Chrome with Reporting generated
+# Run all on Chrome with Reporting generated
 npm run cy:chrome
 
-# Run on Firefox with Reporting generated
+# Run all on Firefox with Reporting generated
 npm run cy:firefox
 ```
 
@@ -38,10 +38,14 @@ npm run cy:firefox
 # Docker Windows
 docker run -it -v ${PWD}:/e2e -w /e2e cypress/included:9.2.0 --browser chrome
 docker run -it -v ${PWD}:/e2e -w /e2e cypress/included:9.2.0 --browser firefox
+# Docker Windows | Run a specifc test on Chrome
+docker run -it -v ${PWD}:/e2e -w /e2e cypress/included:9.2.0 --browser chrome --spec /e2e/cypress/integration/ui/page.response.code.spec.ts
 
 # Docker Linux
 docker run -it -v $PWD:/e2e -w /e2e cypress/included:9.2.0 --browser chrome
 docker run -it -v $PWD:/e2e -w /e2e cypress/included:9.2.0 --browser firefox
+# Docker Linux | Run a specifc test on Chrome
+docker run -it -v $PWD:/e2e -w /e2e cypress/included:9.2.0 --browser chrome --spec /e2e/cypress/integration/ui/page.response.code.spec.ts
 
 ```
 
