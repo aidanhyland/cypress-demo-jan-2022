@@ -84,6 +84,3 @@ The cypress.json contains configuration for tagging tests.
   }
 ``` 
 The `TAGS` property will affect all files with .feature extension. The `CYPRESS_*_TAGS` properties will affect .spec.ts extension files.
-
-- [Spec File Tag Syntax](https://www.npmjs.com/package/cypress-tags)
-- [Feature File Tag Syntax](https://github.com/cucumber/cucumber/tree/master/tag-expressions)
