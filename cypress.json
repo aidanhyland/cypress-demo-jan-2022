@@ -1,0 +1,23 @@
+{
+  "integrationFolder": "cypress/integration",
+  "testFiles": ["**/*.feature", "**/*.spec.ts"],
+  "defaultCommandTimeout": 10000,
+  "chromeWebSecurity": false,
+  "retries": 0,
+  "env": {
+    "TAGS": "",
+    "CYPRESS_INCLUDE_USE_BOOLEAN_AND": true,
+    "CYPRESS_INCLUDE_TAGS": "",
+    "CYPRESS_EXCLUDE_TAGS": ""
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "video": false,
+  "viewportWidth": 1000,
+  "viewportHeight": 1000,
+  "watchForFileChanges": false
+}
